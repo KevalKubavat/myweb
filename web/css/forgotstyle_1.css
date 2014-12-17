@@ -1,0 +1,64 @@
+#signup-form { 
+	width: 970px; 
+	margin: 0 auto; 
+	margin-top: 100px; 
+	margin-bottom: 50px; 
+	background: #fff; 
+	padding: 40px; 
+	border: 10px solid #f2f2f2; 
+box-shadow: 0px 3px 10px rgba(0, 0, 0, 1);
+}
+
+input, textarea { 
+	background: none repeat scroll 0 0 #FFFFFF; 
+	border: 1px solid #C9C9C9; 
+	
+	color: #545658; 
+	padding: 8px; 
+	font-size: 19px; 
+	border-radius: 2px 2px 2px 2px; 
+        
+        font: 14px/24px Helvetica, Arial, sans-serif; 
+	color: #666;
+}
+
+#submit { 
+	background: url("imgs/submit_bg.gif") repeat-x scroll 0 0 transparent; 
+	border: 1px solid #B7D6DF; 
+	border-radius: 2px 2px 2px 2px; 
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); 
+	color: #437182; 
+	cursor: pointer; 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+	font-size: 14px;
+	font-weight: bold; 
+	height: auto; 
+	padding: 6px 10px; 
+	text-shadow: 0 1px 0 #FFFFFF; 
+	width: auto; 
+}
+#submit:hover { 
+	background: url("imgs/submit_hover_bg.gif") repeat-x scroll 0 0 transparent; 
+	border: 1px solid #9FBAC0; 
+	cursor: pointer; 
+}
+
+legend {
+    
+    font: 14px/24px monospace;
+    font-size: 19px;
+}
+
+.text{
+    
+    font: 14px/24px monospace;
+    font-size: 15px;
+    padding-left: 0px;
+    
+}
+
+body{
+    background-image: url(../imgs/bg.png) ;
+}
+
+
