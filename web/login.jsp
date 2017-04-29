@@ -20,7 +20,7 @@
             var b=document.forms["login"]["pass"].value;
             if (b==null || b=="")
             {
-                alert("please Enter password");
+                alert("please enter password");
                 return false;
             }
             
